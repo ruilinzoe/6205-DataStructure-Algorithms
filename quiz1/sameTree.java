@@ -35,13 +35,13 @@ public class sameTree {
         TreeNode pleft=new TreeNode(10);
         TreeNode pright=new TreeNode(11);
         p.left=pleft;
-        p.right=pright;
+//        p.right=pright;
 
         TreeNode q=new TreeNode(9);
         TreeNode qleft=new TreeNode(10);
         TreeNode qright=new TreeNode(10);
-        q.left=qleft;
-        q.right=qright;
+        q.right=qleft;
+//        q.right=qright;
         System.out.println(sameTree(p, q));
 
     }
