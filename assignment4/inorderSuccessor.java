@@ -22,7 +22,7 @@ public class inorderSuccessor {
 
     public static void main(String[] args) {
         TreeNode t=new TreeNode(12);
-        TreeNode x=new TreeNode(4);
+        TreeNode x=new TreeNode(6);
         TreeNode y=new TreeNode(12);
         t.left=x;
         t.right=y;

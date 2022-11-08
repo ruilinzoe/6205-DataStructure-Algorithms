@@ -40,6 +40,6 @@ public class sumBST {
         TreeNode x=new TreeNode(3);
         TreeNode y=new TreeNode(3);
         t.right=new TreeNode(10, x,y);
-        System.out.println(rangeSumBST(t, 4, 9));
+        System.out.println(rangeSumBST(t, 5, 9));
     }
 }

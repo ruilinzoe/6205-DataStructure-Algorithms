@@ -42,4 +42,7 @@ public class bstIterator {
         return result.val;
     }
 
+    public static void main(String[] args) {
+
+    }
 }
