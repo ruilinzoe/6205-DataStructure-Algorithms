@@ -21,7 +21,6 @@ public class recoverBST {
     public static void recoverTree(TreeNode root) {
 
         findSwap(root);
-
         int tmp = first.val;
         first.val = second.val;
         second.val = tmp;
@@ -48,7 +47,7 @@ public class recoverBST {
     public static void main(String[] args) {
         TreeNode t=new TreeNode(12);
         t.left=new TreeNode(1);
-        TreeNode x=new TreeNode(3);
+        TreeNode x=new TreeNode(4);
         TreeNode y=new TreeNode(3);
         t.right=new TreeNode(10, x,y);
         recoverTree(t);
