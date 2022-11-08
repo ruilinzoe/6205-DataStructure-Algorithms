@@ -16,7 +16,7 @@ public class validBST {
         }
     }
 
-    public boolean isValidBST(TreeNode root) {
+    public static boolean validBST(TreeNode root) {
         // if(root==null) return true;
         return valid(root, Long.MAX_VALUE, Long.MIN_VALUE);
     }
@@ -33,9 +33,9 @@ public class validBST {
     public static void main(String[] args) {
         TreeNode t=new TreeNode(12);
         t.left=new TreeNode(1);
-        TreeNode x=new TreeNode(3);
-        TreeNode y=new TreeNode(3);
-        t.right=new TreeNode(10, x,y);
-        System.out.println(valid(t, 0, 15));
+        TreeNode x=new TreeNode(13);
+        TreeNode y=new TreeNode(15);
+        t.right=new TreeNode(14, x,y);
+        System.out.println(validBST(t));
     }
 }

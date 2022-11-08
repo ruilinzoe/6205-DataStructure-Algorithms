@@ -41,7 +41,6 @@ public class convertBSTtoDoubleLinkList {
 
     public static Node treeToDoublyList(Node root) {
         if (root == null) return null;
-
         helper(root);
         // close DLL
         last.right = first;
