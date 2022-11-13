@@ -37,7 +37,7 @@ public class populateParentBT {
                 }
                 if(prevNode != null){
                     //populate the parent
-                    prevNode.parent=node;
+                    node.parent=prevNode;
                 }
                 prevNode = node;
             }
