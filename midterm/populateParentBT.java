@@ -36,7 +36,8 @@ public class populateParentBT {
                     queue.add(node.right);
                 }
                 if(prevNode != null){
-                    node.parent=prevNode;
+                    //populate the parent
+                    prevNode.parent=node;
                 }
                 prevNode = node;
             }
