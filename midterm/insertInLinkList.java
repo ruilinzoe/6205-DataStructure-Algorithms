@@ -40,16 +40,12 @@ public class insertInLinkList {
 
         public static void main(String[] args) {
             int[] keys = {2, 4};
-
-            // points to the head node of the linked list
             Node head = null;
-
-            // construct a linked list
             for (int i = keys.length - 1; i >= 0; i--) {
                 head = new Node(keys[i], head);
             }
             head = sortedInsert(head, new Node(1));
             printList(head);
         }
-
+//time: O(N)
 }

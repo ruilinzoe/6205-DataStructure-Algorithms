@@ -49,6 +49,6 @@ public class populateParentBT {
             }
         }
     }
-
+    //Time: O(N);
 
 }

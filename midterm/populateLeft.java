@@ -20,7 +20,6 @@ public class populateLeft {
         if(root == null){
             return;
         }
-
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         queue.add(null);
@@ -35,7 +34,7 @@ public class populateLeft {
                     queue.add(node.right);
                 }
                 if(prevNode != null){
-                    prevNode.nextLeft = node;
+                    prevNode.nextLeft=node;
                 }
                 prevNode = node;
             }
@@ -48,4 +47,5 @@ public class populateLeft {
             }
         }
     }
+    //Time: O(N);
 }
