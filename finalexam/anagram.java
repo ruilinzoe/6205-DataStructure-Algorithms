@@ -26,6 +26,6 @@ public class anagram {
         String[] strs=new String[]{"app", "ppa", "ab", "ba"};
         System.out.println(anagrams(strs));
     }
-    //Time:
-    //Space:
+    //Time:O(NKlogK) sorting used O(KLogK), K is the max length of string in strs[], N is length of strs[]
+    //Space: O(NK) have used hashmap
 }
