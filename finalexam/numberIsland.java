@@ -25,7 +25,7 @@ public class numberIsland {
             helper(grid, row, col-1);
         }
     }
-
     //Time: O(M*N), M is the row, N is the column
-    //Space: O(1), no extra structure used
+    //Space: O(M*N)
+
 }
